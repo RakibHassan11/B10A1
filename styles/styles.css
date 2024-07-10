@@ -156,7 +156,7 @@ border: 1px solid rgba(13, 19, 33, 0.20);
     height: 550px;
     align-self: stretch;
     border-radius: 16px;
-background: url(<path-to-image>) lightgray 0px -5.621px / 100% 110.681% no-repeat;
+background: lightgray 0px -5.621px / 100% 110.681% no-repeat;
 }
 .item{
     display: flex;
@@ -271,6 +271,26 @@ font-weight: 400;
 opacity: 0.7;
 align-self: stretch;
 line-height: 26px; /* 162.5% */
+}
+
+
+.learn-more-button{
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+height: 10px;
+width: 80px;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid #0D1321;
+opacity: 0.7;
 }
 
                  
