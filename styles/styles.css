@@ -220,11 +220,11 @@ background: rgba(255, 76, 30, 0.05);
     }
     .footer{
         display: flex;
-justify-content: space-between;
-align-items: center;
-align-self: stretch;
-margin-top: 100px;
-margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    margin-top: 100px;
+    margin-bottom: 20px;
     }
     .social-icons img {
         width: 24px;
