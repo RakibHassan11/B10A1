@@ -5,6 +5,7 @@
 }
 header {
     background: #FFF;
+    margin-bottom: 150px;
 
 }
 
@@ -106,6 +107,9 @@ opacity: 0.7;
     line-height: normal;
 }
 /* page two styles  */
+.page-two{
+    margin-bottom: 150px;
+}
 .pgtwotop{
     align-self: stretch;
     color: #0D1321;
@@ -116,6 +120,13 @@ opacity: 0.7;
     font-style: normal;
     font-weight: 800;
 
+}
+.page-three{
+    margin-top: 150px;
+}
+.current-target{
+    margin-top: 200px;
+    margin-bottom: 150px;
 }
 .pg{
     align-self: stretch;
@@ -212,6 +223,8 @@ background: rgba(255, 76, 30, 0.05);
 justify-content: space-between;
 align-items: center;
 align-self: stretch;
+margin-top: 100px;
+margin-bottom: 20px;
     }
     .social-icons img {
         width: 24px;
