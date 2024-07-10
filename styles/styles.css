@@ -1,0 +1,276 @@
+.azeret-mono-normal{
+      font-family: "Azeret Mono", monospace;
+      font-optical-sizing: auto;
+      font-style: normal;
+}
+header {
+    background: #FFF;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+}
+.name{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banners-bold-txt{
+    width: 900px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; 
+}
+.ban-para{
+    width: 710px;
+    color: #0D1321;
+    text-align: center;
+    justify-content: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.7;
+}
+.para{
+color: #0D1321;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+opacity: 0.7;
+}
+.nav-left {
+    flex: 1; 
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.banner{
+    background-image: url(/assets/Hero-bg.png);
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button styles */
+.resume-btn{
+    display: inline-flex;
+    padding: 17px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    color: #0D1321;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.kala-button{
+    display: flex;
+    padding: 21px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #0D1321;
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* page two styles  */
+.pgtwotop{
+    align-self: stretch;
+    color: #0D1321;
+    justify-content: center;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+.pg{
+    align-self: stretch;
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px; /* 150% */
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+
+.iframe-container {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 16px;
+border: 1px solid rgba(13, 19, 33, 0.20);
+}
+
+.iframe-container iframe {
+    height: 550px;
+    align-self: stretch;
+    border-radius: 16px;
+background: url(<path-to-image>) lightgray 0px -5.621px / 100% 110.681% no-repeat;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+padding: 40px;
+gap: 32px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.item1{
+    display: flex;
+width: 364px;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.item2{
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.item3{
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);}
+    /* footer-styles */
+
+    .container2 {
+        text-align: center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/assets/handshake.jpg) lightgray 50% / cover no-repeat;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center; 
+        padding: 50px;
+        border-radius: 16px;
+        
+    }
+    .footer{
+        display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+    }
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+    }
+.feedback-form {
+            margin-top: 20px;
+        }
+
+.feedback-form input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    color: rgba(13, 19, 33, 0.40);
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-left: 10px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footh1{
+color: #FFF;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 112.5% */
+}
+.footp{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+opacity: 0.7;
+align-self: stretch;
+line-height: 26px; /* 162.5% */
+}
+
+                 
